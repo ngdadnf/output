@@ -1,0 +1,23 @@
+{
+  "name": "out/output",
+  "description": "The output to help encoding, decoding and modify simple output format.",
+  "type": "library",
+  "license": "MIT",
+  "keywords": ["output", "returns", "encoding", "decoding"],
+  "autoload": {
+    "psr-4": {
+      "Output\\": "src/"
+    }
+  },
+  "require": {},
+  "require-dev": {},
+  "suggest": {},
+  "authors": [
+    {
+      "name": "Shahzada Modassir",
+      "email": "shahzadamodassir@gmail.com",
+      "homepage": "https://github.com/shahzadamodassir"
+    }
+  ],
+  "minimum-stability": "stable"
+}
