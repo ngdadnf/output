@@ -101,6 +101,16 @@ class Output extends Codec implements OutputInterface
   }
 
   /**
+   * Returns isDefined boolean status check value should be not null and not empty
+   * 
+   * @return bool
+   */
+  protected function isDefined()
+  {
+    return $this->get() != null;
+  }
+
+  /**
    * Prints human-readable information about a variable
    * 
    * @param bool $returns
